@@ -1,0 +1,26 @@
+name: tvm_calculator
+description: Time value of money calculator
+version: 1.0.0+2
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.0"
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "images/icon.png"
+  image_path_android: "images/icon.png"
